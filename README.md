@@ -17,3 +17,6 @@ You can refer the [bomb defusal manual](https://www.bombmanual.com/print/KeepTal
 For modded modules, you can refer to the [Repository of Manual Pages](https://ktane.timwi.de/).
 ### Code Structure
 All modules must be implemented in `modules` folder.
+### Unit Testing
+Please include the unit test file in your modules to ensure that your modules are working properly!
+You can learn more about unit testing in [This python docs](https://docs.python.org/3/library/unittest.html)
