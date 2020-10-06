@@ -1,6 +1,6 @@
 import unittest
 
-class TestSimpleWireLogic(unittest.TestCase):
+class TestSimpleWireSolver(unittest.TestCase):
     def test_ThreeWires(self):
         input=['yellow', 'yellow', 'black']
         self.AssertEqual(solve_simple_wires(input, True), 'Cut the second wire')
