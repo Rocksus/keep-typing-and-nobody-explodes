@@ -11,7 +11,7 @@ class Module:
     # generate_module will be responsible in generating the class module
     def generate_module(self):
         colors = ['yellow', 'red', 'blue', 'black', 'white']
-        num_of_wires = random.randrange(3, 7)
+        num_of_wires = random.randint(3, 6)
         self.wires = []
         for x in range(num_of_wires):
             self.wires.append(random.choice(colors))
