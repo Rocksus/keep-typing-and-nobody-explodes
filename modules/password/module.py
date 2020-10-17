@@ -30,6 +30,7 @@ class Module:
                 candidate = random(candidates)
                 self.letters[i].append(candidate)
                 candidates.remove(candidate)
+            random.shuffle(self.letters[i])
     def dispaly_module(self):
         for i in range(self.letters):
             print('Col {}: {}'.format(i, self.letters[i][0]))
