@@ -97,7 +97,7 @@ class Module:
             print('The text on the display is {} and the text on the label is {}\n'.format(self.display.upper(), self.label.upper()))
 
         def check_logic(self):
-            if (find_position() and find_possible_answers()):
+            if (self.find_position() and self.find_possible_answers()):
                 return True
             return False
 
